@@ -1,0 +1,3 @@
+<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Cart · Signal Supply Co.</title><link rel='stylesheet' href='style.css'></head><body><header><a class='brand' href='index.html'>Signal Supply Co.</a></header><main><h1>Your cart</h1><div class='panel' id='cart'></div></main><footer>Signal Supply Co. · Demo only.</footer><script src='tracking.js'></script><script>
+const p=JSON.parse(localStorage.getItem('signalCart')||'null');cart.innerHTML=p?`<h2>${p.name}</h2><p>$${p.price}</p><p>Quantity: 1</p><a class="button" href="checkout.html">Continue to checkout</a>`:`<p>Your demo cart is empty.</p><a href="index.html">Browse products</a>`;
+</script></body></html>
